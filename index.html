@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My LinkedIn Portfolio</title>
+    <link rel="icon" href="images/icons8-linkedin.gif" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="icon">
+            <img src="images/icons8-linkedin.gif" alt="GIF Icon" class="icon">
+        </div>
+        <form class="form_search">
+            <input type="text" name="search">
+            <button type="submit">Search</button>
+        </form>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#posts">Posts</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="">Me</a>
+                <ul>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="">Sign Out</a></li>
+                </ul>
+            </li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <aside>
+        <table class="asideTable">
+            <tr>
+                <td id="SpecialRow">Profile Language</td>
+            </tr>
+            <tr>
+                <td>English</td>
+            </tr>
+            <tr>
+                <td id="SpecialRow">Public Profile</td>
+                </tr>
+            <tr>
+                <td>www.linkedin.com/in/rina-su-21731b331</td>
+            </tr>
+            <tr>
+                <td id="SpecialRow">Skills</td>
+                </tr>
+            <tr>
+                <td>Python C#</td>
+            </tr>
+            <tr>
+                <td>Java SQL</td>
+            </tr>
+            <tr>
+                <td>.NET Framework</td>
+            </tr>
+        </table>
+    </aside>
+
+<main>
+    <section id="home">
+    <header> 
+        <figure>
+        <img src="images/Open Peeps - Avatar.png" alt="profile photo"> <h3>Northeastern University</h3>
+        </figure>
+        <h1>Rina Su</h1> 
+        <p>Master of Science in Information Systems(MSIS) <br>at Northeastern University</p>
+    </header>
+    </section>
+
+    <section id="about">
+    <div>
+        <h1>About</h1>
+        <p>Hi! I am a dedicated software developer with a solid foundation in programming languages such as Python, C#, JavaScript, and SQL. With a keen interest in information technology and databases, I have gained valuable experience in developer applications, tools, methodologies, and practices, including web development using open-source technologies like MVC and big data systems engineering.</p>
+    </div>
+</section>
+
+    <div class="gallery">
+        <section id="posts">
+        <h1>Posts</h1>
+        <ul>
+            <li><a href="images/StartPage.png"><img src="images/StartPage.png" 
+                 width="100"   height="75" alt="Start Page">
+                 <span><img src="images/StartPage.png" width="500" height="300"
+                  alt="Start Page"><br>Project Start Page</span></a>
+            </li>
+             <li><a href="images/transplantList.png"><img src="images/transplantList.png" 
+                 width="100"   height="75" alt="Pic2">
+                 <span><img src="images/transplantList.png" width="500" height="300"
+                  alt="Pic2"><br>Connected to a relational database</span></a>
+            </li>
+             <li><a href="images/DocWorkArea.png"><img src="images/DocWorkArea.png" 
+                 width="100"   height="75" alt="Pic3">
+                 <span><img src="images/DocWorkArea.png" width="500" height="300"
+                  alt="Pic3"><br>Doctor's workrequest work area</span></a>
+            </li>
+             <li><a href="images/TransplantCase.png"><img src="images/TransplantCase.png" 
+                 width="100"   height="75" alt="Pic4">
+                 <span><img src="images/TransplantCase.png" width="500" height="300"
+                  alt="Pic4"><br>Transplant Organ Screening and Matching Page</span></a>
+            </li>
+          </ul>
+        <p>Our project focused on the WorkRequest Management System for Organ Transplants.<br>
+            <br>
+            🖋️ Organizations Involved in the Project:<br>
+            - UNOS Transplant Coordinator Organization<br>
+            - Doctor Organization<br>
+            - Donor Hospital Transplant Coordinator Organization<br>
+            - Recipient Hospital Transplant Coordinator Organization<br>
+            - Lawyer Organization<br>
+            - Transportation Employee Organization<br>
+            <br>
+            🖥️ High-Level Component Diagram: The UI design includes various parts, each serving different functionalities and data flows.
+            <br>
+            📚 Database: <br>
+            - We designed and created a relational database for organ transplants, added triggers and constraints, and inserted some fake data. <br>
+            - Using JDBC, we connected the database to Netbeans, fetching or editing data as needed to display it on the UI.<br>
+            <br>
+            💫Project Highlights:<br>
+            -  Each role has the right to perform CRUD operations.<br>
+            -  Each user has a unique ID, and the ID is encrypted.<br>
+            - Supports cross-organization requests.<br>
+            - With database connectivity, we can transmit more information and images.<br>
+            - Each work request displays its processing status, ensuring a concise and efficient workspace.</p>
+    </section>
+    </div>
+
+    <section id="testimonials">
+        <h1>Testimonials</h1>
+      <div class="container">
+        <img src="images/CEO-M.png" alt="Avatar" style="width:90px">
+        <p><span>Manager Wang</span> CEO at Beijing Oil China Information Technology Co., Ltd.</p>
+        <p>Outstanding Internships</p>
+      </div>
+      
+      <div class="container">
+        <img src="images/CEO-W.png" alt="Avatar" style="width:90px">
+        <p><span>Manager Tian</span> CEO at Xinlian Company.</p>
+        <p>Outstanding Internships</p>
+      </div>
+    </section>
+
+</main>
+
+
+  
+</body>
+</html>
